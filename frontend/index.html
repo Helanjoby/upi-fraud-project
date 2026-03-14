@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>UPI Fraud Detection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="phone">
+
+    <div class="header">
+        <h2>Pay with UPI</h2>
+    </div>
+
+    <div class="payment-box">
+
+        <div class="profile">
+            <div class="avatar">U</div>
+            <div>
+                <p class="name">UPI Merchant</p>
+                <p class="sub">Secure Payment</p>
+            </div>
+        </div>
+
+        <label>Enter UPI ID</label>
+        <input type="text" id="upi_id" placeholder="example@upi">
+
+        <label>Amount</label>
+        <input type="number" id="amount" placeholder="Enter amount">
+
+        <label>Note</label>
+        <input type="text" id="note" placeholder="Optional message">
+
+        <button onclick="checkTransaction()">Proceed to Pay</button>
+
+        <div id="result"></div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
