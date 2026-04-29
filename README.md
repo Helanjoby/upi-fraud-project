@@ -8,21 +8,25 @@ Detect fraudulent UPI transactions
 Analyze transaction patterns
 Build a machine learning model for classification
 Improve fraud detection accuracy
+
 🛠️ Tech Stack
 Python
 Pandas, NumPy
 Scikit-learn
 Matplotlib / Seaborn
+
 ⚙️ Features
 Data preprocessing and cleaning
 Feature engineering
 Fraud detection using machine learning
 Data visualization
 Model evaluation
+
 🧠 Model Used
 Logistic Regression (change if different)
 Decision Tree (optional)
 Random Forest (optional)
+
 📊 Workflow
 Data Collection
 Data Preprocessing
@@ -30,6 +34,7 @@ Exploratory Data Analysis (EDA)
 Model Training
 Model Evaluation
 Fraud Prediction
+
 📈 Results
 Successfully identified fraudulent transaction patterns
 Achieved good accuracy
